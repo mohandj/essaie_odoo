@@ -1,0 +1,14 @@
+<odoo>
+
+    <!-- Inherit Form View to Modify it -->
+    <record id="mohand_view_addbutton" model="ir.ui.view">
+        <field name="name">mohand.view.addbutton</field>
+        <field name="model">models</field>
+        <field name="inherit_id" ref="sale.view_order_form"/>
+        <field name="arch" type="xml">
+            <button name="action_encours" states="encours" type="object" string="nouvelle button"/>
+
+
+        </field>
+    </record>
+</odoo>
